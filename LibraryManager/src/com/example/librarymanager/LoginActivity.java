@@ -15,6 +15,8 @@ public class LoginActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_login);
 		Log.i(TAG, "oncreate");
+		Log.i(TAG, "setContentView");
+
 	}
 
 	@Override
