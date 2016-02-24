@@ -2,15 +2,19 @@ package com.example.librarymanager;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
 public class LoginActivity extends ActionBarActivity {
 
+	private static final String TAG = LoginActivity.class.getName();
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_login);
+		Log.i(TAG, "oncreate");
 	}
 
 	@Override
