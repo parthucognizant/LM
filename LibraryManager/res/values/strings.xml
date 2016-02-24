@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LibraryManager</string>
+    <string name="main_signup">Signup</string>
+    <string name="main_Login">Login</string>
+    <string name="signup_name">Name</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_confirm_password">Confirm password</string>
+    <string name="signup_phone_number">Phone Number</string>
+    <string name="signup_add_account">+</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
