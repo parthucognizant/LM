@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.Toast;
 
 import com.example.librarymanager.util.constants;
 
@@ -29,6 +28,8 @@ public class MainActivity extends ActionBarActivity {
 
 	public void loginClick(View v){
 		Log.i(TAG,constants.logs.loginClick);
-		Toast.makeText(this, "Login clicked", Toast.LENGTH_SHORT).show();
+		Intent signupintent = new Intent(this, LoginActivity.class);
+		startActivity(signupintent);
+		//Toast.makeText(this, "Login clicked", Toast.LENGTH_SHORT).show();
 	}
 }

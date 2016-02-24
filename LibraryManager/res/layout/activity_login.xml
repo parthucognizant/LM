@@ -8,4 +8,41 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.librarymanager.LoginActivity" >
 
+    <EditText
+        android:id="@+id/username_edit"
+        android:layout_width="fill_parent"
+        android:hint="@string/login_username"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="76dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/password_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/username_edit"
+        android:layout_below="@+id/username_edit"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="@string/login_password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_go"
+        android:layout_width="177dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/password_edit"
+         android:background="@drawable/state"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="@string/login_login"
+        android:textColor="#9933FF"
+        android:textSize="30sp" />
+
 </RelativeLayout>

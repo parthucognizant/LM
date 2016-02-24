@@ -10,7 +10,9 @@
     <string name="signup_phone_number">Phone Number</string>
     <string name="signup_add_account">+</string>
     <string name="title_activity_login">LoginActivity</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_login">Login</string>
+    
 
 </resources>
