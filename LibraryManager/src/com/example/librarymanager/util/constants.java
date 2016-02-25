@@ -9,6 +9,8 @@ public class constants {
 		public static String loginClick = "Mainactivity-login";
 		public static String signuponCreate = "Signup-oncreate";
 		public static String loginonCreate = "Login-oncreate";
+		public static String logingo = "Login-logingo";
+		public static String doInBackground = "doInBackground";
 
 	}
 

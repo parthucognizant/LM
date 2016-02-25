@@ -13,6 +13,8 @@
     <string name="login_username">Username</string>
     <string name="login_password">Password</string>
     <string name="login_login">Login</string>
-    
+    <string name="title_activity_books">BooksActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 
 </resources>

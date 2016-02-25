@@ -42,6 +42,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="41dp"
         android:text="@string/login_login"
+        android:onClick="login"
         android:textColor="#9933FF"
         android:textSize="30sp" />
 
